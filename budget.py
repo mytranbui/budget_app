@@ -69,7 +69,7 @@ def create_spend_chart(categories):
   while i < len(name_cat):
     lst.append(name_cat[i][0])
     i += 1
-  ## Dividing the spendings by category and the total amount spent
+  ## Dividing the spendings by category and getting the total amount spent
   for list in spending_all:
     spending = 0
     for str_nb in list:
